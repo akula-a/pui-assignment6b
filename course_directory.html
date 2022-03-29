@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>CMU SIO</title>
+    <!-- styles -->
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <link rel="stylesheet" type="text/css" href="css/directory.css">
+    <script src="main.js"></script>
+    <!-- fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Slab" rel="stylesheet">
+  </head>
+  
+  <body onload= "onLoad()">
+    <script type="text/javascript">
+      function saveClassName(name){
+        localStorage.setItem('class_name', name)
+      }
+    </script>
+
+    <!-- navigation bar -->
+    <nav>
+      <ul>
+        <li> <img src="images/cmu-scotty-silhouette.png" alt="Scotty logo" width="120" height="120"> </li>
+        <li> <a href = "index.html"> My Dashboard </a> </li>
+        <li> <a href = "schedule.html "> My Schedule </a> </li>
+        <li> <a href = "course_directory.html" class = "active"> Course Directory </a> </li>
+        <li> <a href = "placeholder.html"> Plan Next Semester </a> </li>
+        <li> <a href = "placeholder.html"> Plan College Path </a> </li>
+      </ul>
+    </nav>
+
+    <!-- search bar and user account button -->
+    <div class = "search">
+        <p> Search </p>
+        <img src = "images/user.png" alt= "User Account Icon" width = 50 height = 50>
+    </div>
+
+    <h1> Course Directory </h1>
+    <h3> Use this page to discover classes and programs you may be interested in! </h3>
+
+    </br>
+
+    <!-- schedule table -->
+    <div class = "course_directory">
+        <table>
+            <tr>
+              <th> Course Number </th>
+              <th> Course Name </th>
+              <th> Professor </th>
+              <th> Units </th>
+              <th> </th>
+    
+            </tr>
+
+            <tr>
+                <td> 15112 </td>
+                <td> Principles of Computing </td>
+                <td> David Kosbie </td>
+                <td> 12 </td>
+                <td> <a href = "course_detail_register.html" style = "color:white"
+                    onclick = "saveClassName('Principles of Computing')"> View Details </a> </td>
+            </tr>
+            
+            <tr>
+                <td> 15430 </td>
+                <td> Programming Usable Interfaces  </td>
+                <td> Scott Hudson </td>
+                <td> 15 </td>
+                <td> <a href = "course_detail_register.html" style = "color:white"
+                    onclick = "saveClassName('Programming Usable Interfaces')"> View Details </a> </td>
+            </tr>
+
+            <tr>
+                <td> 67373 </td>
+                <td> IS Consulting Project </td>
+                <td> Joe Mertz </td>
+                <td> 12 </td>
+                <td> <a href = "course_detail_register.html" style = "color:white"
+                    onclick = "saveClassName('IS Consulting Project')"> View Details </a> </td>
+            </tr>
+
+            <tr>
+                <td> 05434 </td>
+                <td> Machine Learning </td>
+                <td> Carolyn Rose </td>
+                <td> 12 </td>
+                <td> <a href = "course_detail_register.html" style = "color:white"
+                    onclick = "saveClassName('Machine Learning')"> View Details </a> </td>
+            </tr>
+        </table>
+    </div>
+
+  </body>
+</html>

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>CMU SIO</title>
+    <!-- styles -->
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <link rel="stylesheet" type="text/css" href="css/schedule_styles.css">
+    <script src="main.js"></script>
+    <!-- fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Slab" rel="stylesheet">
+  </head>
+  
+  <body onload= "showRegisteredClasses()">
+    <script type="text/javascript">
+      function saveClassName(elem){
+        localStorage.setItem('class_name', elem.innerHTML)
+      }
+    </script>
+    <!-- navigation bar -->
+    <nav>
+      <ul>
+        <li> <img src="images/cmu-scotty-silhouette.png" alt="Scotty logo" width="120" height="120"> </li>
+        <li> <a href = "index.html"> My Dashboard </a> </li>
+        <li> <a href = "schedule.html " class = "active"> My Schedule </a> </li>
+        <li> <a href = "course_directory.html"> Course Directory </a> </li>
+        <li> <a href = "placeholder.html"> Plan Next Semester </a> </li>
+        <li> <a href = "placeholder.html"> Plan College Path </a> </li>
+      </ul>
+    </nav>
+
+    <!-- search bar and user account button -->
+    <div class = "search">
+        <p> Search </p>
+        <img src = "images/user.png" alt= "User Account Icon" width = 50 height = 50>
+    </div>
+
+    <h1> My Schedule </h1>
+    <h3> Spring 2022 </h3>
+
+    <div class = "dropdown">
+        <p> View Past Semester </p>
+        <select name=”past_semester”>
+            <option value=”F22”> Fall 2022 </option>
+            <option value=”S21”> Spring 2021 </option>
+            <option value=”F21”> Fall 2021 </option>
+        </select>
+    </div>
+
+    </br>
+
+    <p> Add Course </p>
+
+    <!-- schedule table -->
+    <div class = "schedule_table">
+        <table>
+            <tr>
+                <td class = "PUI"><a href = "course_detail.html" onclick="saveClassName(this)">Programming Usable Interfaces</a></td> 
+                <td class = "IS"> <a href = "course_detail.html" onclick="saveClassName(this)">IS Consulting Project</a> </td>
+                <td class = "computing"><a href = "course_detail.html" onclick="saveClassName(this)">Python Basics Lab</a></td>
+                <td class = "PUI"><a href = "course_detail.html" onclick="saveClassName(this)">Programming Usable Interfaces</a></td> 
+                <td class = "computing"><a href = "course_detail.html" onclick="saveClassName(this)">Principles of Computing</a></td>
+            </tr>
+            
+            <tr>
+                <td class = "IS"><a href = "course_detail.html" onclick="saveClassName(this)">IS Consulting Project</a></td>
+                <td class = "ML"><a href = "course_detail.html" onclick="saveClassName(this)">Machine Learning</a> </td>
+                <td class = "PUI"><a href = "course_detail.html" onclick="saveClassName(this)">Programming Usable Interfaces</a></td>
+                <td class = "computing"><a href = "course_detail.html" onclick="saveClassName(this)">Principles of Computing</a></td> 
+                <td>  </td>
+            </tr>
+
+            <tr>
+                <td class = "ML"><a href = "course_detail.html" onclick="saveClassName(this)">Machine Learning</a> </td>
+                <td class = "computing"><a href = "course_detail.html" onclick="saveClassName(this)">Principles of Computing</a></td>
+                <td class = "IS"><a href = "course_detail.html" onclick="saveClassName(this)">IS Consulting Project</a></td>
+                <td class = "computing"><a href = "course_detail.html" onclick="saveClassName(this)">Python Basics Lab</a></td> 
+                <td class = "ML"><a href = "course_detail.html" onclick="saveClassName(this)">Machine Learning</a> </td>
+            </tr>
+        </table>
+    </div>
+
+    <h3> <a href = "course_directory.html"> Add Course </a></h3> 
+  </body>
+</html>

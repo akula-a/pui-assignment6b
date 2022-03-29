@@ -1,0 +1,98 @@
+h2, h3{
+    color: #8A2B2B;
+}
+
+h1{
+    margin-left: 20%;
+}
+
+/* ----------------------------------------------------- */
+/* ------------ Progress ring card styling ----------------- */
+.progress_ring{
+    margin-left: 20%;
+    background-color:#D1CCBD;
+    border-radius:10px;
+    top: 15%;
+    width: 28%;
+    padding: 10px;
+    float: left; 
+    margin-bottom: 10px;
+}
+
+.progress_ring p {
+    text-align: center;
+}
+
+#circle h1{
+    margin-bottom: 25%;
+    margin-right: 15%;
+}
+
+
+/* https://www.w3docs.com/snippets/css/how-to-create-circles-with-css.html */
+#circle {
+    background: #B7B09C;
+    width: 128px;
+    height: 128px;
+    border-radius: 64px;
+    border: 10px solid #8A2B2B;
+    margin-left: 30%;
+}
+
+#circle div {
+    position: relative;
+    width: 90px;
+    height: 90px;
+    color: #000;
+    text-align: center;
+}
+
+/* ----------------------------------------------------- */
+/* ------------ Additional info card styling ----------------- */
+.additional_info{
+    background-color: #D1CCBD;
+    top: 50%;
+    width: 28%;
+    margin-left: 20%;
+    border-radius:10px;
+    padding: 10px;
+    float:left;
+}
+
+/* ----------------------------------------------------- */
+/* ------------ College path card styling ----------------- */
+.college_path{
+    background-color:#D1CCBD;  
+    top: 15%;
+    width: 42%;
+    margin-right: 5%;
+    border-radius:10px;
+    padding: 10px;
+    float:right;
+}
+
+.past{
+    background-color: #B7B09C;
+    text-align: center;
+    border-radius: 10px;
+    width: 600px;
+    height: 30px;
+}
+
+.class1, .class3{
+    background-color: #B7B09C;
+    border-radius: 10px;
+    padding: 7px;
+    margin-bottom: 10px;
+    width: 45%;
+    float: left;
+}
+
+.class2, .class4{
+    background-color: #B7B09C;
+    border-radius: 10px;
+    padding: 7px;
+    margin-bottom: 10px;
+    width: 45%;
+    float: right;
+}
