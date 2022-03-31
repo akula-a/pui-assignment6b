@@ -135,7 +135,7 @@ function showRegisteredClasses(){
     // class_list = JSON.parse(localStorage.getItem('class_list'))
 
     if (class_list.includes('Programming Usable Interfaces')){
-        console.log(document.getElementsByClassName('PUI'))
+        // console.log(document.getElementsByClassName('PUI'))
         Array.from(document.getElementsByClassName('PUI')).forEach(elem => {
             elem.style.backgroundColor = '#789F90' 
             elem.querySelector('a').style.color = 'white'

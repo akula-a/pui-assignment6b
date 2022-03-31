@@ -24,10 +24,10 @@ select{
 
 table{
     border: 20px solid #B7B09C;
-    border-radius: 10px;
+    border-radius: 15px;
     margin-left: 20%;
     border-spacing: 20px;
-    background-color: #D1CCBD;
+    background-color: white;
     width: 1000px;
     height: 500px;
     color: white;
@@ -36,7 +36,7 @@ table{
 }
 
 tr{
-    background-color: #D1CCBD;
+    background-color: white;
 }
 
 td{
@@ -44,6 +44,22 @@ td{
 }
 
 table a{
-    color:#D1CCBD;
+    color:white;
     text-decoration: none;
+}
+
+th{
+    color: black;
+}
+
+#add_course_btn{
+    color: white;
+    text-decoration: none;
+    background-color:#002B49 ;
+    border-radius: 10px;
+    height: 10%;
+    width: 10%;
+    float: right;
+    margin-right: 15%;
+    text-align: center;
 }
