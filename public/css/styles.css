@@ -39,7 +39,7 @@ li a:hover {
 
 /* Change the link color when clicked */
 li .active {
-    background-color: #B7B09C;
+    background-color: #B5B4B4;
     color: black;
 }
 
@@ -47,12 +47,12 @@ li .active {
 /* ------------ Button styling ----------------- */
 .button {
     color: white;
-    height: 5%;
-    width: 12%;
+    padding: 10px;
     text-align: center;
     border-radius: 10px;
-    margin: 10px;  
+    text-decoration: none;
     background-color: #002B49;
+    margin: 5px;
 }
 
 /* ----------------------------------------------------- */
@@ -65,7 +65,7 @@ li .active {
 
 .search p{
     border-radius: 10px;
-    background-color: #B7B09C;
+    background-color: #E1E1E1;
     width: 160px;
     height: 3%; 
     padding-left: 10px;

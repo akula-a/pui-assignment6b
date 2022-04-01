@@ -22,21 +22,41 @@ select{
     margin-top: 15px;
 }
 
-table{
-    border: 20px solid #B7B09C;
-    border-radius: 15px;
-    margin-left: 20%;
-    border-spacing: 20px;
-    background-color: white;
-    width: 1000px;
-    height: 500px;
-    color: white;
-    font-weight: bolder;
-    text-align: center;
+/* ----------------------------------------------------- */
+/* ------------ Schedule table styling ----------------- */
+
+.schedule_table{
+    display: inline-block;
+    margin-left:7%;
 }
 
-tr{
-    background-color: white;
+#times{
+    float:left;
+    width: 10%;
+    margin-left:10%;
+    border-spacing: 15px;
+}
+
+#times th {
+    font-size: small;
+}
+
+#schedule{
+    float:right;
+    border: 20px solid #B5B4B4;
+    border-radius: 15px;
+    border-spacing: 20px;
+    background-color: #E1E1E1;
+    width: 80%;
+    height: 500px;
+    color: #E1E1E1;
+    font-weight: bolder;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+#schedule tr{
+    background-color: #E1E1E1;
 }
 
 td{
@@ -45,22 +65,16 @@ td{
 }
 
 table a{
-    color:white;
+    color:#E1E1E1;
     text-decoration: none;
 }
 
 th{
     color: black;
+    font-size:large;
 }
 
 #add_course_btn{
-    color: white;
-    text-decoration: none;
-    background-color:#002B49 ;
-    border-radius: 10px;
-    height: 10%;
-    width: 10%;
     float: right;
-    margin-right: 15%;
-    text-align: center;
+    margin-right: 5%;
 }

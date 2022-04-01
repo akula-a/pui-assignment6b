@@ -16,7 +16,7 @@ h1{
     width: 28%;
     padding: 10px;
     float: left; 
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 }
 
@@ -24,30 +24,16 @@ h1{
     text-align: center;
 }
 
-#circle h1{
-    margin-bottom: 50%;
-    margin-right: 50%;
-    position: relative;
-}
-
-
 /* https://www.w3docs.com/snippets/css/how-to-create-circles-with-css.html */
 #circle {
-    background: #B7B09C;
+    background: #B5B4B4;
     width: 128px;
     height: 128px;
     border-radius: 64px;
-    border: 10px solid #8A2B2B;
+    border: 7px solid #8A2B2B;
     margin-left: 30%;
 }
 
-#circle div {
-    position: relative;
-    width: 90px;
-    height: 90px;
-    color: #000;
-    text-align: center;
-}
 
 /* ----------------------------------------------------- */
 /* ------------ Additional info card styling ----------------- */
@@ -91,6 +77,8 @@ h1{
     margin-bottom: 10px;
     width: 45%;
     float: left;
+    text-align: center;
+    margin-left: 10px;
 }
 
 .class2, .class4{
@@ -100,4 +88,6 @@ h1{
     margin-bottom: 10px;
     width: 45%;
     float: right;
+    text-align: center;
+    margin-right: 10px;
 }
