@@ -1,17 +1,50 @@
 h1, h3 {
-    margin-left: 20%;
+    margin-left: 17%;
+}
+
+.dropdowns{
+    margin-left: 17%;
+}
+
+select{
+    padding-right:20px;
+}
+
+.main_body{
+    display: inline;
 }
 
 table{
+    float:left;
     border: 20px solid #B5B4B4;
     border-radius: 10px;
-    margin-left: 20%;
+    margin-left: 17%;
     border-spacing: 20px;
     background-color: #E1E1E1;
-    width: 1000px;
+    width: 65%;
     height: 500px;
     color: black;
     font-weight: bolder;
     text-align: center;
+    border-collapse: collapse;
 }
 
+th{
+    font-size: large;
+}
+
+.requirements{
+    background-color:#E1E1E1; 
+    border-radius: 10px;
+    float: right;
+    width: 15%;
+    margin: 10px;
+}
+
+.req{
+    background-color:aqua;
+    border-radius: 10px;
+    padding:10px;
+    margin:15px;
+    text-align:center;
+}
