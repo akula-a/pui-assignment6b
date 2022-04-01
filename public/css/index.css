@@ -10,13 +10,14 @@ h1{
 /* ------------ Progress ring card styling ----------------- */
 .progress_ring{
     margin-left: 20%;
-    background-color:#D1CCBD;
+    background-color:#E1E1E1;
     border-radius:10px;
     top: 15%;
     width: 28%;
     padding: 10px;
     float: left; 
     margin-bottom: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 }
 
 .progress_ring p {
@@ -24,8 +25,9 @@ h1{
 }
 
 #circle h1{
-    margin-bottom: 25%;
-    margin-right: 15%;
+    margin-bottom: 50%;
+    margin-right: 50%;
+    position: relative;
 }
 
 
@@ -50,37 +52,40 @@ h1{
 /* ----------------------------------------------------- */
 /* ------------ Additional info card styling ----------------- */
 .additional_info{
-    background-color: #D1CCBD;
+    background-color: #E1E1E1;
     top: 50%;
     width: 28%;
     margin-left: 20%;
     border-radius:10px;
     padding: 10px;
     float:left;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 }
 
 /* ----------------------------------------------------- */
 /* ------------ College path card styling ----------------- */
 .college_path{
-    background-color:#D1CCBD;  
+    background-color:#E1E1E1;  
     top: 15%;
     width: 42%;
     margin-right: 5%;
     border-radius:10px;
     padding: 10px;
     float:right;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 }
 
 .past{
-    background-color: #B7B09C;
+    background-color: #B5B4B4;
     text-align: center;
     border-radius: 10px;
-    width: 600px;
-    height: 30px;
+    width: 550px;
+    height: 50px;
+    margin-left: 5%;
 }
 
 .class1, .class3{
-    background-color: #B7B09C;
+    background-color: #B5B4B4;
     border-radius: 10px;
     padding: 7px;
     margin-bottom: 10px;
@@ -89,7 +94,7 @@ h1{
 }
 
 .class2, .class4{
-    background-color: #B7B09C;
+    background-color: #B5B4B4;
     border-radius: 10px;
     padding: 7px;
     margin-bottom: 10px;
