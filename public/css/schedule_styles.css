@@ -25,12 +25,12 @@ select{
 /* ----------------------------------------------------- */
 /* ------------ Schedule table styling ----------------- */
 
-.schedule_table{
+.schedule-wrapper{
     display: inline-block;
     margin-left:7%;
 }
 
-#times{
+.schedule-sidebar{
     float:left;
     width: 5%;
     margin-left:10%;
@@ -42,7 +42,7 @@ select{
     text-align:right;
 }
 
-#schedule{
+.schedule-content{
     float:right;
     border: 20px solid #B5B4B4;
     border-radius: 15px;

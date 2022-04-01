@@ -57,13 +57,13 @@ li .active {
 
 /* ----------------------------------------------------- */
 /* ------------ Search bar and user account icon styling ----------------- */
-.search{
+.header{
     position: fixed;
     top: 1%;
     right: 2%;
 }
 
-.search p{
+.header p{
     border-radius: 10px;
     background-color: #E1E1E1;
     width: 160px;
@@ -73,7 +73,7 @@ li .active {
     margin: 25px;
 }
 
-.search img{
+.header img{
     float: right;
 }
 

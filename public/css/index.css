@@ -8,7 +8,7 @@ h1{
 
 /* ----------------------------------------------------- */
 /* ------------ Progress ring card styling ----------------- */
-.progress_ring{
+.dashboard-content-left-top{
     margin-left: 17%;
     background-color:#E1E1E1;
     border-radius:10px;
@@ -20,12 +20,12 @@ h1{
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 }
 
-.progress_ring p {
+.dashboard-content-left-top p {
     text-align: center;
 }
 
 /* https://www.w3docs.com/snippets/css/how-to-create-circles-with-css.html */
-#circle {
+#left-top-content {
     background: #B5B4B4;
     width: 128px;
     height: 128px;
@@ -37,7 +37,7 @@ h1{
 
 /* ----------------------------------------------------- */
 /* ------------ Additional info card styling ----------------- */
-.additional_info{
+.dashboard-content-left-bottom{
     background-color: #E1E1E1;
     top: 50%;
     width: 29%;
@@ -50,7 +50,7 @@ h1{
 
 /* ----------------------------------------------------- */
 /* ------------ College path card styling ----------------- */
-.college_path{
+.dashboard-content-right{
     background-color:#E1E1E1;  
     top: 15%;
     width: 43%;
@@ -61,7 +61,7 @@ h1{
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 }
 
-.past{
+#right-past{
     background-color: #B5B4B4;
     text-align: center;
     border-radius: 10px;
