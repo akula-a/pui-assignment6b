@@ -37,7 +37,7 @@ select{
     border-spacing: 15px;
 }
 
-#times th {
+.schedule-sidebar th {
     font-size: small;
     text-align:right;
 }
@@ -56,7 +56,7 @@ select{
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 }
 
-#schedule tr{
+.schedule-content tr{
     background-color: #E1E1E1;
 }
 

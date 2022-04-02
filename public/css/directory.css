@@ -16,10 +16,10 @@ select{
 
 /* Content styling */
 
-table{
+.directory-content table{
     float:left;
     border: 20px solid #B5B4B4;
-    border-radius: 10px;
+    border-radius: 15px;
     margin-left: 17%;
     border-spacing: 20px;
     background-color: #E1E1E1;
@@ -28,7 +28,7 @@ table{
     color: black;
     font-weight: bolder;
     text-align: center;
-    border-collapse: collapse;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 }
 
 th{

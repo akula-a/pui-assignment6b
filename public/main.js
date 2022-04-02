@@ -6,14 +6,6 @@
 const storedVal = JSON.parse(localStorage.getItem('class_list'));
 const class_list = storedVal ? storedVal : [];
 
-// function initializeClassList(){
-//     if (JSON.parse(localStorage.getItem('class_list')) == null){
-//         var list = []
-//         // alert("i am here")
-//         localStorage.setItem('class_list', JSON.stringify(list))
-//     }
-// }
-
 // removes class from current list
 function removeClass(){
     class_name = localStorage.getItem('class_name')
@@ -162,7 +154,7 @@ function showRegisteredClasses(){
 }
 
 // load all of the class data into the course details HTML file
-function onLoad() {
+function loadClassData() {
 
     let class_dict = findClass()
     //course name
